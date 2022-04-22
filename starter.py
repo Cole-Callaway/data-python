@@ -84,11 +84,12 @@ friends = ['Joe', 'Sally', 'Camilo', 'Perry', 'Susan']
 
 # Problem 12
 # Research to find the Python method that allows you to add an element to the end of the array (similar to push() in JavaScript), then add a name to the end of the `friends` array.
+friends.push("Sammy")
 
 
 # Problem 13
 # Print out the total amount of elements in the `friends` array. The Python method you are looking for is similar to the JavaScript property `.length`.
-
+print(friends.count())
 
 # Problem 14
 # Add a name into the third position in the array (index 2). Make sure you are not overwriting the value that is already there.
